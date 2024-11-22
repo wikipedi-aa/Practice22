@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <group
+        android:name="logo"
+        android:pivotX="50"
+        android:pivotY="50"
+        android:scaleX="1"
+        android:scaleY="1">
+        <!-- Red Circle -->
+        <path
+            android:fillColor="#FF0000"
+            android:pathData="M50,50m-25,0a25,25 0,1 1,50 0a25,25 0,1 1,-50 0" />
+        <!-- Letter V -->
+        <path
+            android:name="v"
+            android:fillColor="#FFFFFF"
+            android:pathData="M30,40 L50,70 L70,40"
+            android:strokeWidth="2"
+            android:strokeColor="#FFFFFF"
+            android:fillAlpha="0" />
+    </group>
+</vector>
